@@ -1,0 +1,16 @@
+input{
+    margin: 5px 0;
+}
+fieldset{
+    width: 220px;
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    border-color: #999;
+}
+
+legend{
+    background-color: #444;
+    padding: 0 10px;
+    color: #fff;
+}

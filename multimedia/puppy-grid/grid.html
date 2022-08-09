@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+	<head>
+		<script src="script/Lab10_part1.js"></script>
+		<link href="css/Lab10_part1.css" rel="stylesheet">
+		<meta name="author" content="mac">
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<table>
+		<tr>
+			<td>
+				<h3>Change font color</h3>
+				<input type="radio" name="color" value="red" onclick="changeColor(4)">Red
+				<input type="radio" name="color" value="blue" onclick="changeColor(2)">Blue
+				<input type="radio" name="color" value="green" onclick="changeColor(3)">Green
+			</td>
+			<td id="td_text" rowspan="2">
+				<h1 id="text">CSIS 1280
+				</h1>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<h3>Change background color</h3>
+				<select name="color" id="colorsel" onChange="changeBg()">
+					<option value="nothing">  </option>
+					<option value="red">Red</option>
+					<option value="green">Green</option>
+					<option value="blue">Blue</option>
+				</select>
+			</td>
+		</tr>
+		</table>
+
+
+	</body>
+</html>
