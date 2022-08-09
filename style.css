@@ -369,12 +369,24 @@ a.add-peace:after {
 }
 #navigation #right-nav {
   padding: 0.4rem 1.2rem 0.8rem;
-  border: 1px solid transparent;
   text-align: right;
 }
 
 #nav-dev-name{
+  /* cursor: pointer;
+
+  text-decoration: none !important;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid #303ab2;
+  transition: 0.3s; */
 }
+
+/* #nav-dev-name:hover{
+  border-bottom: 2px solid transparent;
+  padding-bottom: 1rem;
+  transition: 1s;
+} */
+
 
 @media (max-width: 992px) {
   #navigation {
@@ -430,8 +442,19 @@ a.add-peace:after {
 
 .portfolio li.inactive{
   color: #303ab2;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   cursor: pointer;
+
+  text-decoration: none !important;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid #303ab2;
+  transition: 0.3s;
+}
+
+.portfolio li.inactive:hover{
+  border-bottom: 2px solid transparent;
+  padding-bottom: 1rem;
+  transition: 1s;
 }
 .portfolio li.inactive:before{
   content: "More ";
@@ -444,7 +467,6 @@ a.add-peace:after {
   content: "";
   transition: 1s;
 }
-
 
 .portfolio-container {
   display: flex;
